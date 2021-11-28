@@ -1,0 +1,10 @@
+.cover__text {
+  max-width: 280px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
