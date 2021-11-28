@@ -8,3 +8,8 @@
   line-height: 1.07;
   max-width: 785px;
 }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}

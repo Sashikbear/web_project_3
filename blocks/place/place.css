@@ -8,3 +8,9 @@
 .place:last-child {
   padding-bottom: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .place {
+    max-width: 720px;
+    padding: 0 0 72px 0;
+  }
+}
