@@ -8,3 +8,9 @@
   line-height: 1.42;
   text-align: left;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .quote__text {
+    line-height: 1.25;
+    margin: 40px 0 10px 0;
+  }
+}

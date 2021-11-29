@@ -1,4 +1,5 @@
 .place__artist-job {
+  grid-area: artist;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -6,4 +7,6 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
+  margin: 0;
+  padding: 0 0 8px 0;
 }

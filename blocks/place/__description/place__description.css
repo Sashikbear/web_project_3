@@ -1,0 +1,6 @@
+.place__description {
+  grid-area: text;
+}
+.place__description:last-child {
+  padding-bottom: 0;
+}

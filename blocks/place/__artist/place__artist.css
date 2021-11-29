@@ -1,12 +1,6 @@
 .place__artist {
   display: flex;
   flex-direction: column;
-  min-width: 484px;
-  padding-left: 40px;
-}
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-  .place__artist {
-    min-width: 352px;
-    padding-left: 0;
-  }
+  justify-content: flex-end;
+  align-items: flex-start;
 }

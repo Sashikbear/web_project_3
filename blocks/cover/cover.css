@@ -3,6 +3,7 @@
   min-height: 740px;
   background: url(/images/cover__image.png) no-repeat center;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,9 +13,15 @@
 .cover:hover .cover__overlay {
   opacity: 0.8;
 }
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover {
     width: 100%;
     min-height: 746px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    min-height: 254px;
   }
 }
