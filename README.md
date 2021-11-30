@@ -23,4 +23,4 @@ This project's objective is to mainly study and master responsive design. The to
 
 **Link**
 
-Check out the project [here] (https://Sashikbear.github.io/web_project_3/index.html)
+Check out the project [here] (https://sashikbear.github.io/web_project_3/)
