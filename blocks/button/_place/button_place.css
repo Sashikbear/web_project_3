@@ -5,6 +5,6 @@
 
 @media screen and (max-width: 319px) {
   .button_place {
-    width: 100%;
+    width: calc(100vw - 20px);
   }
 }
