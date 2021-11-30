@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
-  background: url("/images/cover__image.png") no-repeat center;
+  background: url(../../images/cover__image.png) no-repeat center;
   margin: 0 auto;
   padding: 0;
   display: flex;
