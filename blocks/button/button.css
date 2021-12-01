@@ -1,5 +1,6 @@
 .button {
   grid-area: button;
+  height: 48px;
   background: #0278fe;
   border-radius: 4px;
   padding: 13px 20px;
@@ -22,3 +23,4 @@
     font-size: 14px;
   }
 }
+/* moved height property to the block style */

@@ -1,0 +1,5 @@
+.button_location_cover {
+  width: 137px;
+  z-index: 1;
+}
+/* moved height property to the block style */

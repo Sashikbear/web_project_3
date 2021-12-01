@@ -15,17 +15,19 @@
     line-height: 1.1;
   }
 }
+/* removed the duplicate style */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title {
-    width: 100%;
     font-size: 32px;
     line-height: 1.09;
+    padding: 0 16px;
   }
 }
+/* removed the duplicate style */
 @media screen and (max-width: 319px) {
   .place__title {
-    width: 100%;
     font-size: 26px;
     line-height: 1.25;
+    padding: 0 10px;
   }
 }

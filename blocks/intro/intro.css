@@ -20,6 +20,7 @@
 }
 @media screen and (max-width: 319px) {
   .intro {
+    width: calc(100vw - 20px);
     padding: 50px 10px 50px 10px;
   }
 }

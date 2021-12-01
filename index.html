@@ -9,8 +9,9 @@
   <body>
     <div class="page">
       <header class="header">
+        <!-- replaced logo with vector image in svg format -->
         <img
-          src="./images/logo.png"
+          src="./images/header__logo.svg"
           alt="Practicum logo"
           class="header__logo"
         />
@@ -52,49 +53,69 @@
           </p>
         </section>
         <section class="photo-grid">
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item1.png"
-            alt="View of Cricieth, Wales"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item2.png"
-            alt="View of Cricieth, Wales"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item3.png"
-            alt="View of Kyiv, Ukraine"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item4.png"
-            alt="View of Kyiv, Ukraine"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item5.png"
-            alt="View of Berea, USA"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item6.png"
-            alt="View of Berea, USA"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item7.png"
-            alt="View of Muramvya, Burundi"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid__item8.png"
-            alt="View of Muramvya, Burundi"
-          />
+          <!-- used the correct semantic tags of ul and li -->
+          <ul class="photo-grid__list">
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item1.png"
+                alt="View of Cricieth, Wales"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item2.png"
+                alt="View of Cricieth, Wales"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item3.png"
+                alt="View of Kyiv, Ukraine"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item4.png"
+                alt="View of Kyiv, Ukraine"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item5.png"
+                alt="View of Berea, USA"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item6.png"
+                alt="View of Berea, USA"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item7.png"
+                alt="View of Muramvya, Burundi"
+              />
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid__item8.png"
+                alt="View of Muramvya, Burundi"
+              />
+            </li>
+          </ul>
         </section>
         <section class="places">
-          <div class="place">
+          <!-- used the correct semantic tags of article representing a self-contained composition and reusability -->
+          <article class="place">
             <h2 class="place__title">Kyiv, Ukraine</h2>
             <div class="place__artist">
               <p class="place__artist-job">Artist</p>
@@ -107,8 +128,9 @@
               src="./images/place__image_kyiv.png"
               alt="View of Kyiv, Ukraine"
             />
+            <!-- used the correct complex key-value modifier -->
             <a
-              class="button button_place"
+              class="button button_location_place"
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               target="_blank"
             >
@@ -133,8 +155,9 @@
                 of the right one.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <!-- used the correct semantic tags of article representing a self-contained composition and reusability -->
+          <article class="place">
             <h2 class="place__title">Cricieth, Wales</h2>
             <div class="place__artist">
               <p class="place__artist-job">Artist</p>
@@ -148,8 +171,9 @@
               src="./images/place__image_cricieth.png"
               alt="View of Cricieth, Wales"
             />
+            <!-- used the correct complex key-value modifier -->
             <a
-              class="button button_place"
+              class="button button_location_place"
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               target="_blank"
             >
@@ -174,8 +198,9 @@
                 to hold the office of Prime Minister of the UK.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <!-- used the correct semantic tags of article representing a self-contained composition and reusability -->
+          <article class="place">
             <h2 class="place__title">Berea, USA</h2>
             <div class="place__artist">
               <p class="place__artist-job">Artist</p>
@@ -186,8 +211,9 @@
               src="./images/place__image_berea.png"
               alt="View of Berea, USA"
             />
+            <!-- used the correct complex key-value modifier -->
             <a
-              class="button button_place"
+              class="button button_location_place"
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               target="_blank"
             >
@@ -212,8 +238,9 @@
                 student receives a full-tuition scholarship.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <!-- used the correct semantic tags of article representing a self-contained composition and reusability -->
+          <article class="place">
             <h2 class="place__title">Muramvya, Burundi</h2>
             <div class="place__artist">
               <p class="place__artist-job">Artist</p>
@@ -224,8 +251,9 @@
               src="./images/place__image_muramvya.png"
               alt="View of Muramvya, Burundi"
             />
+            <!-- used the correct complex key-value modifier -->
             <a
-              class="button button_place"
+              class="button button_location_place"
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               target="_blank"
             >
@@ -258,8 +286,9 @@
                 the country.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <!-- used the correct semantic tags of article representing a self-contained composition and reusability -->
+          <article class="place">
             <h2 class="place__title">Moscow, Russia</h2>
             <div class="place__artist">
               <p class="place__artist-job">Artist</p>
@@ -272,8 +301,9 @@
               src="./images/place__image_moscow.jpeg"
               alt="View of Moscow, Russia"
             />
+            <!-- used the correct complex key-value modifier -->
             <a
-              class="button button_place"
+              class="button button_location_place"
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
               target="_blank"
             >
@@ -297,18 +327,20 @@
                 much more than can be put into words.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <div class="cover__overlay"></div>
           <h2 class="cover__title">Visit us</h2>
+          <!-- removed span tags.  used max-width property and non-breaking spaces -->
           <p class="cover__text">
-            <span>Year-round</span>
-            <span>Practicum Art Gallery </span>
-            <span>404 Tim Berners-Lee Ave</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year-round&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;Practicum Art Gallery &nbsp;&nbsp;&nbsp;&nbsp;404
+            Tim Berners-Lee Ave&nbsp;&nbsp;
           </p>
+          <!-- used the correct complex key-value modifier -->
           <a
-            class="button button_cover"
+            class="button button_location_cover"
             href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
             target="_blank"
           >

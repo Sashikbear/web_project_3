@@ -4,7 +4,8 @@
   padding: 34px 0 0 0;
   margin: 0 auto;
 }
-@media screen and (max-width: 320px) {
+/* fixed the width of logo from 320 to 768 viewport */
+@media screen and (max-width: 767px) {
   .header__logo {
     max-width: 200px;
   }
