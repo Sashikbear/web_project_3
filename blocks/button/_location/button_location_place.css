@@ -3,10 +3,12 @@
 }
 /* moved height property to the block style */
 /* fixed width for all viewports */
+/* fixed padding for all viewports */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .button_location_place {
     width: 288px;
     margin: 0 16px;
+    padding: 13px 40px;
   }
 }
 
